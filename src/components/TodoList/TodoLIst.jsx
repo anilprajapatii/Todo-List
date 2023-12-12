@@ -18,7 +18,7 @@ function TodoList() {
   }
 
   return (
-    <div>
+    <div className="todolist">
       {list.length > 0 &&
         list.map(todo => <Todo
             key={todo.id}

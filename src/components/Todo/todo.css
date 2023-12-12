@@ -1,0 +1,30 @@
+.Todo{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.Todo-inner{
+    background-color:white;
+    width: 86%;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    padding: 4px;
+
+}
+.todo-taskInput{
+    padding-left: 10px;
+    font-size: 17px;
+}
+.btn-edit{
+    background-color: rgb(6, 200, 6);
+    color: white;
+    border-radius: 3px;
+}
+.btn-delete{
+    background-color: rgb(245, 89, 89);
+    color: white;
+    border-radius: 3px;
+}

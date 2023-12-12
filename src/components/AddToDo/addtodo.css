@@ -1,0 +1,35 @@
+.addtodo-box{
+    display: flex;
+    justify-content: center;
+    padding-top: 6%;
+    height: 9%;
+    /* border: 1px solid red; */
+   
+}
+input{
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    padding: 5px 5px 5px 20px;
+    width: 60%;
+    font-size: 17px;
+    
+}
+button{
+    width: 20%;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    font-size: 17px;
+    margin-left: 7px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    color: gray;
+    
+}
+button:hover{
+    background-color: rgb(231, 14, 231);
+    color:white
+   
+}
